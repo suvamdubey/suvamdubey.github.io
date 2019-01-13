@@ -1,0 +1,41 @@
+# Site
+name: "Just Some Random CTO Things"
+description: "Your Next-Door CTO"
+meta_description: "Your Next-Door CTO. The personal Suvam Dubey blog"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: 
+google_analytics: 'UA-125867456-1'
+disqus: 'suvamdubey.github.com'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+# Authors
+authors:
+  Suvam:
+    name: Suvam Dubey
+    display_name: duvam
+    
+    email: suvamdubey@gmail.com
+    facebook: https://facebook.com/suvam.dubey
+    description: "CTO of MEDhof Plus. Computer Science Undergrad."
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
