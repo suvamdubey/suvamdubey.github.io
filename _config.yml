@@ -8,6 +8,8 @@ baseurl:
 google_analytics: 'UA-125867456-1'
 disqus: 'suvamdubey.github.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title
 
 # Authors
 authors:
@@ -23,7 +25,7 @@ authors:
 plugins: 
   - jekyll-paginate
   - jekyll-archives
-  - jekyll-sitemap
+  - jekyll-seo-tag
     
 # Archives
 jekyll-archives:
